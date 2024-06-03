@@ -1,0 +1,15 @@
+#about {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(226, 221, 221);
+  font-size: 1.5rem;
+  background-image: url("./images/communitybg.jpg");
+  background-size: fill;
+  /* background-repeat: no-repeat; */
+}
+#about h1 {
+  color: rgb(0, 166, 255);
+}

@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#login {
+  background-color: rgb(0, 128, 255);
+  display:;
+  width: 50%;
+  margin: auto auto 2rem auto;
+  padding: 0 0 1rem 0;
+  box-shadow: 0px 8px 10px 0px rgb(84, 134, 192);
+}
+#login div h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+}
+#login div p {
+  font-size: large;
+  text-align: center;
+  margin: 1rem;
+}
+#myForm div {
+  margin: 1rem;
+}
+#myForm div input {
+  width: 100%;
+  font-size: 1.5rem;
+  border-radius: 4px;
+}
+label {
+  display: block;
+  font-size: 1.5rem;
+}
+#sbmt {
+  font-size: larger;
+  background-color: green;
+}
+#sbmt:hover {
+  /* opacity: 0.2; */
+  background-color: darkgreen;
+}
