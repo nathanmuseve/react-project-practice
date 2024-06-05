@@ -20,13 +20,15 @@ const[inputs, setInputs] = useState({});
       </div>
       <form id="myForm1" onSubmit={handleSubmit}>
         <div>
-          <label for="username">UserName
+          <label>
+            UserName
           <input type="text"  id="username" name="UserName" value={inputs.name} onChange={handleChange}  placeholder="Please enter your username"/>
           </label>
         </div>
 
         <div>
-          <label for="password">Password
+          <label> 
+            Password
           <input type="password" id="password" name="Password" value={inputs.Password} onChange={handleChange} />
           </label>
         </div>

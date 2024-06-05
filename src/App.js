@@ -3,6 +3,7 @@ import Home from "./Home";
 import About from "./About";
 import Register from "./Register";
 import Login from "./Login";
+import Contacts from "./Contacts"
 function App() {
   return (
     <div>  
@@ -11,6 +12,7 @@ function App() {
     <About />
     <Login />
     <Register />
+    <Contacts />
    </div> 
   );
 }

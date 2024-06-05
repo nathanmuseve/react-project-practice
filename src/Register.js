@@ -25,30 +25,35 @@ function Register() {
       </div>
       <form id="myForm" onSubmit={handleSubmit}>
         <div>
-          <label for="fname"> First Name
+          <label> 
+           First Name
           <input type="text" id="fname" name="First Name" value={inputs.fullName || ""} onChange={handleChange} placeholder="Enter your first Name" />
           </label>
         </div>
 
         <div>
-          <label for="midname"> Middle Name
+          <label> 
+            Middle Name
           <input type="text" id="midname" name="Middle Name" value={inputs.middleName || ""} onChange={handleChange} placeholder="Enter your middle Name" />
           </label>
         </div>
         <div>
-          <label for="lname">Last Name
+          <label >
+            Last Name
             <input type="text" id="lname" name="Last Name" value={inputs.lastName || ""} onChange={handleChange} placeholder="Enter your last Name" />
           </label>
         </div>
 
         <div>
-          <label for="email">Email
+          <label >
+            Email
           <input type="text" id="email" name="Email" value={inputs.email || ""} onChange={handleChange} placeholder="Enter your valid email address" />
           </label>
         </div>
 
         <div>
-          <label for="dob"> Date of Birth
+          <label> 
+            Date of Birth
           <input type="date" id="dob" dname="DateofBirth" value={inputs.dayOb || null} onChange={handleChange} />
           </label>
         </div>
@@ -60,7 +65,8 @@ function Register() {
         </div>
 
         <div>
-          <label for="tel">Tel No
+          <label >
+            Tel No
           <input type="number" id="tel" max={10} name="tel" value={inputs.tel || ""} onChange={handleChange} placeholder="Enter valid phone number" />
           </label>
         </div>
