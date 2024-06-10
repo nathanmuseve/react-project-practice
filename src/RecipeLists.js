@@ -21,6 +21,7 @@ function RecipeLists() {
     };
   return (
     <div className="recipes" style={recip}>
+      <h2>Working with react Lists</h2>
       <h1>Recipe lists</h1>
       {recipes.map(recipe => ( 
         <div key={recipe.id}>

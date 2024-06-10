@@ -6,6 +6,7 @@ import Login from "./Login";
 import Contacts from "./Contacts"
 import RecipeLists from "./RecipeLists";
 import AddRecipes from "./AddRecipes";
+import Props from "./Props";
 function App() {
   return (
     <div>  
@@ -14,6 +15,7 @@ function App() {
     <About />
     <AddRecipes />
     <RecipeLists />
+    <Props />
     <Login />
     <Register />
     <Contacts />

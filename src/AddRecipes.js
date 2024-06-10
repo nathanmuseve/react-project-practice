@@ -20,6 +20,7 @@ function AddRecipes() {
 
   return (
     <div>
+      <h2>Adding lists or elelements or cards with react</h2>
       <h1>Add Recipes</h1>
       <input type="text" placeholder="Recipe Name" value={name} onChange={(e) =>setName(e.target.value)} required style={{cursor:'pointer', fontSize:'1.5rem', padding:'4px', border:" 2px solid green", borderRadius:'4px', margin: '0.4rem'}}/>
 
